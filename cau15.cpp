@@ -24,7 +24,7 @@ int main()
         cout<<"Luat choi : Ban co 10 lan doan neu doan sai 1 lan se tru 1 diem ban co toi da 10 diem\n";
     do
     {
-        cout<<"Hay doan mot so tu "<<max<<" toi : "<<min;
+        cout<<"Hay doan mot so tu "<<min<<" cho toi : "<<max;
         cin>>b;
         if (point==0)
         {

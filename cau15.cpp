@@ -4,7 +4,13 @@ using namespace std;
 int main()
 {
     srand(time(NULL));
-    int a = rand() % 100 + 1 ;
+    int max , min;
+    cout<<"Hay nhap doan ban muon doan";
+    cout<<"Max : ";
+    cin>>max;
+    cout<<"Min : ";
+    cin>>min;
+    int a = min + rand() % (max - min + 1) ;
     int b;
     int point=10;
     int Try=0,sel=1;
@@ -18,7 +24,7 @@ int main()
         cout<<"Luat choi : Ban co 10 lan doan neu doan sai 1 lan se tru 1 diem ban co toi da 10 diem\n";
     do
     {
-        cout<<"Hay doan mot so tu 1 toi 100 : ";
+        cout<<"Hay doan mot so tu "<<max<<" toi : "<<min;
         cin>>b;
         if (point==0)
         {
